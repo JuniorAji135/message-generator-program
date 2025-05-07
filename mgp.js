@@ -8,6 +8,57 @@ const number_seven = 'The fantasy football player you have on your team is Totte
 const number_eight = 'The fantasy football player you have on your team is Aston Villa FC footballer Ollie Watkins';
 const number_nine = 'The fantasy football player you have on your team is Brighton & Hove Albion footballer Kaoru Mitoma';
 
+const FantasyFootballPlayer = {
+  number_one: number_one,
+  number_two: number_two,
+  number_three: number_three,
+  number_four: number_four,
+  number_five: number_five,
+  number_six: number_six,
+  number_seven: number_seven,
+  number_eight: number_eight,
+  number_nine: number_nine
+};
+
+function generateRandomMessage() {
+    const keys = Object.keys(FantasyFootballPlayer);
+    const randomIndex = keys[Math.floor(Math.random() * keys.length)];
 
 
-console.log(number_two);
+let playerMessage;
+switch (randomIndex) {
+    case 'number_one':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_two':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_three':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_four':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_five':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_six':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_seven':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_eight':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+    case 'number_nine':
+        playerMessage = ${FantasyFootballPlayer[randomIndex]};
+        break;
+        default:
+            playerMessage = ${FantasyFootballPlayer[randomIndex]};
+}
+
+return playerMessage;
+}
+
+console.log(generateRandomMessage());
