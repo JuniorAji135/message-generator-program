@@ -27,35 +27,35 @@ function generateRandomMessage() {
 
 let playerMessage;
 switch (randomIndex) {
-    case 'number_one':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_one:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_two':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_two:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_three':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_three:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_four':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_four:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_five':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_five:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_six':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_six:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_seven':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_seven:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_eight':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_eight:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
-    case 'number_nine':
-        playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+    case number_nine:
+        playerMessage = FantasyFootballPlayer[randomIndex];
         break;
         default:
-            playerMessage = '${FantasyFootballPlayer[randomIndex]}';
+            playerMessage = FantasyFootballPlayer[randomIndex];
 }
 
 return playerMessage;
